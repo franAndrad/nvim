@@ -5,8 +5,10 @@ lsp.preset("recommended")
 lsp.ensure_installed({
 	'tsserver',
 	'eslint',
-	'sumneko_lua',
-	'rust_analizer',
+	--'sumneko_lua',
+    'clangd',
+    'jedi_language_server',
+	--'rust_analizer',
 })
 
 local cmp = require("cmp")

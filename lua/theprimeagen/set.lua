@@ -1,3 +1,4 @@
+disable_filetype = {"TelescopePrompt", ""}
 vim.opt.guicursor = ""
 
 vim.opt.nu = true

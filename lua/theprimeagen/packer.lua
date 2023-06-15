@@ -43,4 +43,6 @@ return require('packer').startup(function(use)
 	  }
 	}
 
+    -- Autocerrado de (), [], {}
+    use ('windwp/nvim-autopairs')
 end)
